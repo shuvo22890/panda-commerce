@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container">
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     <img class="img-fluid" src="images/logo.png" alt="Logo">
                 </a>
@@ -25,7 +25,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
@@ -33,7 +33,7 @@
                         <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#bagpack">Bagpack</a>
+                        <a class="nav-link" href="#backpacks">Backpacks</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#subscribe">Contact Us</a>
@@ -44,11 +44,11 @@
         </nav>
     </header>
 
-    <section class="container">
-        <div id="carouselExampleControls" class="carousel slide sliderBg" data-bs-ride="carousel">
-            <div class="carousel-inner">
+    <section>
+        <div id="carouselExampleControls" class="carousel slide p-3 sliderBg" data-bs-ride="carousel">
+            <div class="carousel-inner p-0 container">
                 <div class="carousel-item active">
-                    <div class="row align-items-center px-5">
+                    <div class="row py-2 align-items-center flex-column-reverse flex-md-row px-1 px-md-5">
                         <div class="col-md-7">
                             <h1>Mega LCD TV For Sports</h1>
                             <p>This is best tv , x-box and headphone for the people who just want to waste time in front of these. You can waste your time with these all day long.</p>
@@ -56,13 +56,13 @@
                             <a href="#" class="text-decoration-none text-light buyNowBtn">Buy Now</a>
                         </div>
 
-                        <div class="col-md-5">
-                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="TV">
+                        <div class="col-md-5 text-md-end">
+                            <img src="images/banner-images/tv.png" class="img-fluid" alt="TV">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row align-items-center px-5">
+                    <div class="row py-2 align-items-center flex-column-reverse flex-md-row px-1 px-md-5">
                         <div class="col-md-7">
                             <h1>Cool Dude Headphone</h1>
                             <p>This is best tv , x-box and headphone for the people who just want to waste time in front of these. You can waste your time with these all day long.</p>
@@ -70,22 +70,22 @@
                             <a href="#" class="text-decoration-none text-light buyNowBtn">Buy Now</a>
                         </div>
 
-                        <div class="col-md-5">
-                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="Headphone">
+                        <div class="col-md-5 text-md-end">
+                            <img src="images/banner-images/headphone.png" class="img-fluid" alt="Headphone">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row align-items-center px-5">
+                    <div class="row py-2 align-items-center flex-column-reverse flex-md-row px-1 px-md-5">
                         <div class="col-md-7">
                             <h1>X-Box For Your Living Room</h1>
-                            <p>This is best tv  , x-box and headphonefor the people who just want to waste time in front of tthese< You can waste your time with these all day long./p>
+                            <p>This is best tv  , x-box and headphonefor the people who just want to waste time in front of tthese< You can waste your time with these all day long.</p>
                             <h1 class="price">$600</h1>
                             <a href="#" class="text-decoration-none text-light buyNowBtn">Buy Now</a>
                         </div>
 
-                        <div class="col-md-5">
-                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="Xbox">
+                        <div class="col-md-5 text-md-end">
+                            <img src="images/banner-images/xbox.png" class="img-fluid" alt="Xbox">
                         </div>
                     </div>
                 </div>
@@ -101,6 +101,147 @@
         </div>
     </section>
 
+    <section class="container categories">
+        <div class="row mw-100 m-0">
+            <div class="col-md-4 my-1 my-md-0 px-4">
+                <div class="row align-items-center p-2 singleCat watch">
+                    <h2 class="col-6 text-light">Watch</h2>
+
+                    <div class="col-6 text-end">
+                        <img class="img-fluid" src="images/categories/watch.png" alt="Watch">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-1 my-md-0 px-4">
+                <div class="row align-items-center p-2 singleCat bag">
+                    <h2 class="col-6 text-light">Bag</h2>
+
+                    <div class="col-6 text-end">
+                        <img class="img-fluid" src="images/categories/bag.png" alt="Bag">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-1 my-md-0 px-4">
+                <div class="row align-items-center p-2 singleCat shoes">
+                    <h2 class="col-6 text-light">Shoes</h2>
+
+                    <div class="col-6 text-end">
+                        <img class="img-fluid" src="images/categories/shoes.png" alt="Shoes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container shoes">
+        <h3 class="mx-3">Shoes</h3>
+
+        <div class="row mw-100 m-0">
+            <div class="col-md-4  my-2 my-md-0">
+                <div class="p-3 rounded my-3 my-md-0 h-100 singleShoe">
+                    <img src="images/shoes/shoe-1.png" class="w-100">
+
+                    <h4>Supply 350</h4>
+
+                    <p class="my-2 shoeDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, enim!</p>
+
+                    <p class="text-dark mb-0 fw-bold">$120</p>
+
+                    <a class="text-decoration-none mt-1 py-1 px-3 rounded fs-6 text-light buyNowBtn" href="#">Buy Now &raquo;</a>
+                </div>
+            </div>
+
+            <div class="col-md-4  my-2 my-md-0">
+                <div class="p-3 rounded my-3 my-md-0 h-100 singleShoe">
+                    <img src="images/shoes/shoe-2.png" class="w-100">
+
+                    <h4>Nike 320</h4>
+
+                    <p class="my-2 shoeDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, enim!</p>
+
+                    <p class="text-dark mb-0 fw-bold">$320</p>
+
+                    <a class="text-decoration-none mt-1 py-1 px-3 rounded fs-6 text-light buyNowBtn" href="#">Buy Now &raquo;</a>
+                </div>
+            </div>
+
+            <div class="col-md-4  my-2 my-md-0">
+                <div class="p-3 rounded my-3 my-md-0 h-100 singleShoe">
+                    <img src="images/shoes/shoe-3.png" class="w-100">
+
+                    <h4>Red Max</h4>
+
+                    <p class="my-2 shoeDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, enim!</p>
+
+                    <p class="text-dark mb-0 fw-bold">$350</p>
+
+                    <a class="text-decoration-none mt-1 py-1 px-3 rounded fs-6 text-light buyNowBtn" href="#">Buy Now &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container backpacks">
+            <h3 class="mx-3">Backpacks</h3>
+    
+            <div class="row mw-100 m-0">
+                <div class="col-md-4  my-2 my-md-0">
+                    <div class="card border-0 h-100 singleBackpack">
+                        <div class="p-2 my-3 my-md-0 card-body">
+                            <img src="images/bags/bag-1.png" class="img-fluid mb-3">
+        
+                            <h4>Red Backpacks</h4>
+        
+                            <p class="my-2 backpackDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, enim!</p>
+        
+                            <p class="text-dark mb-0 fw-bold">$125</p>
+                        </div>
+    
+                        <div class="border-top card-footer">
+                            <a class="text-decoration-none mt-0 py-1 px-3 rounded fs-6 text-light buyNowBtn" href="#">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4  my-2 my-md-0">
+                    <div class="card border-0 h-100 singleBackpack">
+                        <div class="p-2 my-3 my-md-0 card-body">
+                            <img src="images/bags/bag-2.png" class="img-fluid mb-3">
+    
+                            <h4>Blue Backpacks</h4>
+        
+                            <p class="my-2 backpackDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit. Et, enim!</p>
+        
+                            <p class="text-dark mb-0 fw-bold">$325</p>
+                        </div>
+    
+                        <div class="border-top card-footer">
+                            <a class="text-decoration-none mt-0 py-1 px-3 rounded fs-6 text-light buyNowBtn" href="#">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 my-2 my-md-0">
+                    <div class="card border-0 h-100 singleBackpack">
+                        <div class="p-2 my-3 my-md-0 card-body">
+                            <img src="images/bags/bag-3.png" class="img-fluid mb-3">
+        
+                            <h4>Black Backpacks</h4>
+        
+                            <p class="my-2 backpackDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, enim!</p>
+        
+                            <p class="text-dark mb-0 fw-bold">$169</p>
+                        </div>
+    
+                        <div class="border-top card-footer">
+                            <a class="text-decoration-none mt-0 py-1 px-3 rounded fs-6 text-light buyNowBtn" href="#">Buy Now &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
     <!--Bootstrap JS-->

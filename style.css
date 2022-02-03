@@ -1,10 +1,20 @@
 section{
-    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .sliderBg{
-    background: #fceae8;
-    border-radius: 10px;
+    background: #e6c1bd;
+}
+
+@media only screen and (max-width: 450px){
+    .sliderBg h1{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .sliderBg p{
+        font-size: 14px;
+    }
 }
 
 .price{
@@ -17,4 +27,38 @@ section{
     border-radius: 8px;
     margin-top: 15px;
     display: inline-block;
+}
+
+.categories .singleCat{
+    border-radius: 10px;
+}
+
+.categories .watch{
+    background: linear-gradient(to right, #EE922F, #F3C818);
+}
+
+.categories .bag{
+    background: linear-gradient(to right, #EC4688, #f31067);
+}
+
+.categories .shoes{
+    background: linear-gradient(to right, #4277FF, #380EF6);
+}
+
+.shoes .singleShoe, .backpacks .singleBackpack{
+    box-shadow: 3px 5px 8px 0 #d3d3d3;
+}
+
+.shoes h3, .backpacks h3{
+    color: #666262;
+}
+
+.shoes .singleShoe h4, .backpacks .singleBackpack h4{
+    font-size: 22px;
+}
+
+.shoes .singleShoe .shoeDesc, .backpacks .singleBackpack .backpackDesc{
+    font-size: 14px;
+    font-weight: 600;
+    color: #2e2e2e;
 }

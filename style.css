@@ -62,3 +62,15 @@ section{
     font-weight: 600;
     color: #2e2e2e;
 }
+
+.subscribe{
+    background: #FAE6E5;
+}
+
+.subscribe p{
+    font-weight: 600;
+}
+
+.subscribe .formWrap{
+    max-width: 320px;
+}
